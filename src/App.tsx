@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar"
 import SearchBox from "./components/SearchBox"
 import Features from "./components/Features"
 import GetStarted from "./components/GetStarted"
-
+import Footer from "./components/Footer"
 function App() {
   
   return (
@@ -14,6 +14,7 @@ function App() {
         <SearchBox/>
         <Features/>
         <GetStarted/>
+        <Footer/>
       </div>
     </>
   )
