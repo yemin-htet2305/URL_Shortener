@@ -15,7 +15,7 @@
             
         
     return (
-        <div className="block w-full gap-2 lg:mt-10 flex items-center justify-center p-5">
+        <div className="block w-full gap-2 lg:mt-10 items-center justify-center p-5">
          
             <form onSubmit={handleSubmit(onSubmit)} className="w-full h-40 gap-5 flex flex-col lg:flex-row items-center justify-center p-10 border rounded-2xl
             bg-linear-to-r from-[#360137] to-black/40"
@@ -26,7 +26,7 @@
                 })} type="email" placeholder="Shorten a link here!" className="text-white" 
                    />
                    {errors.email && <span className="text-red-500">{errors.email.message}</span>}
-                <Button type="submit" variant="outline" className="bg-[#00e7d5] text-white w-full lg:w-20">
+                <Button type="submit" className="bg-[#00e7d5] text-white w-full lg:w-20">
                     Shorten it!
                 </Button>
             </form>

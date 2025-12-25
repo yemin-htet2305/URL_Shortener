@@ -1,5 +1,5 @@
-
 import hero from '../assets/illustration-working.svg'
+import { Button } from './ui/button'
 
 
 export default function 
@@ -13,7 +13,7 @@ export default function
                     Build your brand's recognition and 
                     get detailed insights on how your links are performing.</span>
             </p>
-            <button className="p-3 bg-[#00e7d5] rounded-3xl text-white hover:cursor-pointer">Getting Started</button>
+            <Button className="p-7 bg-[#00e7d5] rounded-4xl text-white hover:cursor-pointer">Getting Started</Button>
         </div>
         <div className='flex-1 flex justify-center md:justify-end order-1 md:order-2'>
              <img src={hero} alt="" className="w-full max-w-lg" />

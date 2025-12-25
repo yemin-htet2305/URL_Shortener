@@ -2,6 +2,8 @@ import Hero from "./components/Hero"
 import NavBar from "./components/NavBar"
 import SearchBox from "./components/SearchBox"
 import Features from "./components/Features"
+import GetStarted from "./components/GetStarted"
+
 function App() {
   
   return (
@@ -11,6 +13,7 @@ function App() {
         <Hero/>
         <SearchBox/>
         <Features/>
+        <GetStarted/>
       </div>
     </>
   )
